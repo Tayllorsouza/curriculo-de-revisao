@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.alpha{
+    background-image: url(../img/who-am-i-13602501-110720180136.gif);
+    
+}
+body{
+font-family: 'Ubuntu', sans-serif; 
+font-size: 14px;
+color: #333;
+
+
+}
+
+.conteudo{
+    width: 80%;
+    margin: 0 auto;
+    background:darkcyan;
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border:4px solid black;
+    margin-left: 22px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.contatos{
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+     width: 150px;
+}
+a{
+    color: black;
+    width: 250px;
+    height: 250px;
+}
+.experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.esquerda{
+    width: 20%;
+    text-align: right;
+}
+.titulo-sessao,
+.subtitulo-sessao,  {
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.subitle{
+    font-size: 10px; 
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin: 1%;
+}
+
+.subtitulo-sessao{
+    font-size: 16px;
+}
+.direita{
+    width: 78%;
+}
+.rodape{
+    background: #333333;
+    color: #33B8BA;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+hr{
+border:   1px  black solid;
+}
